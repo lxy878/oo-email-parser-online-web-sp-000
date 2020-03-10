@@ -8,4 +8,7 @@ class EmailParser
     @unformatted = unformatted_email
   end
 
+  def parse
+    emails = @unformatted.split(", ")
+  end
 end
