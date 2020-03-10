@@ -10,7 +10,7 @@ class EmailParser
 
   def parse
     emails = @unformatted.split(/(?:,\s|\s)/)
-    unq = emails.uniq
+    emails = emails.uniq
   end
 end
 
