@@ -12,3 +12,6 @@ class EmailParser
     emails = @unformatted.split(", ")
   end
 end
+
+a = EmailParser("avi@test.com, arel@test.com")
+puts a.parse.inspect
