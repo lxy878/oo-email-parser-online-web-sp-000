@@ -13,5 +13,5 @@ class EmailParser
   end
 end
 
-a = EmailParser.new("avi@test.com, arel@test.com")
+a = EmailParser.new("avi@test.com, arel@test.com test@avi.com, test@arel.com")
 puts a.parse.inspect
