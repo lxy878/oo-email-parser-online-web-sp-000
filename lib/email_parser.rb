@@ -9,7 +9,7 @@ class EmailParser
   end
 
   def parse
-    emails = @unformatted.split(/(,|)\s/)
+    emails = @unformatted.split(/(,\s|\s)/)
   end
 end
 
